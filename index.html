@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelBnB | Maroc Aventure</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>Travel</span>BNB</a>
+    <nav class="navbar">
+      <a href="#Accueil">Accueil</a>
+      <a href="#Réserver">Réserver</a>
+      <a href="#services">Services</a>
+      <a href="#gallerie">Galerie</a>
+      <a href="#revenue">Revenue</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search" id="search-btn"></i>
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <!-- Barre de recherche -->
+    <form action="" class="rechercher_content" id="search-form">
+      <input type="search" id="rechercher" placeholder="Rechercher ici ..." />
+      <label for="rechercher" class="fas fa-times" id="close-search"></label>
+    </form>
+  </header>
+
+  <!-- Formulaire de connexion -->
+  <div class="login-form-contenue">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+      <h3>Se connecter</h3>
+      <input type="email" class="box" placeholder="Entrez votre email" />
+      <input type="password" class="box" placeholder="Entrez votre mot de passe" />
+      <input type="submit" value="Se connecter" class="btn" />
+      <input type="checkbox" id="remember" />
+      <label for="remember">Se souvenir de moi</label>
+      <p>Mot de passe oublié ? <a href="#">Cliquez ici</a></p>
+      <p>Je n’ai pas de compte <a href="#">S'inscrire</a></p>
+    </form>
+  </div>
+
+  <!-- Section Accueil -->
+  <section class="home" id="Accueil">
+    <div class="overlay"></div>
+    <div class="content animate-home">
+      <h3>L'aventure est une richesse en soi</h3>
+      <p>Explorez le monde avec nous, l’aventure commence ici</p>
+      <a href="#Réserver" class="btn">Découvrez plus</a>
+    </div>
+    <div class="controls">
+      <span class="vid-btn active" data-src="./Img/a.mp4"></span>
+      <span class="vid-btn" data-src="./Img/b.mp4"></span>
+      <span class="vid-btn" data-src="./Img/c.mp4"></span>
+      <span class="vid-btn" data-src="./Img/d.mp4"></span>
+      <span class="vid-btn" data-src="./Img/e.mp4"></span>
+    </div>
+    <div class="video-container">
+      <video src="./Img/12891793_3840_2160_24fps.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+  </section>
+  
+<!--services-->
+<section class="services" id="services">
+  <h1 class="heading">
+    <span>s</span><span>e</span><span>r</span><span>v</span><span>i</span><span>c</span><span>e</span><span>s</span>
+  </h1>
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fas fa-campground"></i>
+      <h3>Campements dans le désert</h3>
+      <p>Vivez l’authenticité marocaine sous les étoiles, au cœur des dunes du Sahara.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-tag"></i>
+      <h3>Offres personnalisées</h3>
+      <p>Profitez de réductions et packages adaptés à vos envies d’aventure.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-map-marked-alt"></i>
+      <h3>Guides locaux expérimentés</h3>
+      <p>Découvrez les secrets du Maroc avec des experts passionnés du pays.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-mountain-sun"></i>
+      <h3>Excursions Atlas & oasis</h3>
+      <p>Explorez les montagnes de l’Atlas ou détendez-vous dans les oasis luxuriantes.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-shuttle-van"></i>
+      <h3>Transports confortables</h3>
+      <p>Voyagez sans stress avec nos véhicules modernes et climatisés.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-drumstick-bite"></i>
+      <h3>Saveurs marocaines</h3>
+      <p>Goûtez à la cuisine locale : tajines, couscous, thé à la menthe et bien plus.</p>
+    </div>
+
+    <!-- Nouvelle box 1 -->
+    <div class="box">
+      <i class="fas fa-spa"></i>
+      <h3>Bains & Hammams</h3>
+      <p>Détendez-vous dans les hammams traditionnels et découvrez les rituels marocains.</p>
+    </div>
+
+    <!-- Nouvelle box 2 -->
+    <div class="box">
+      <i class="fas fa-camera-retro"></i>
+      <h3>Expériences photo</h3>
+      <p>Capturez vos souvenirs inoubliables dans les lieux les plus emblématiques du Maroc.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
